@@ -1,0 +1,20 @@
+{
+  "name": "Animesh's First NFT Collection NFT #11",
+  "description": "Animesh's first Web3 dApp NFT Collection. This unique collection 11 of 1000 NFTs available",
+  "image": "ipfs://QmWVgiKR7XoCRENXVgNM3KhMB3Xvhoo6oEgqDcq3hnSduF/11.png",
+  "edition": 11,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Indigo"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Neck",
+      "value": "Yellow"
+    }
+  ]
+}
