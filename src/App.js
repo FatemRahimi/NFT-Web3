@@ -48,7 +48,7 @@ function App() {
   const mint = async () => {
     if (window.ethereum && address) {
       const mintAmount = Number(mintAmountRef.current.value);
-      if (mintAmount < 0 && mintAmount < 6) {
+      if (mintAmount > 0 && mintAmount < 6) {
         const mintRate = await contract.methods.cost().call();
         const totalAmount = mintAmount * mintRate;
         contract.methods
