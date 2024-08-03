@@ -12,7 +12,7 @@ const IMG_PATH =
   'https://ipfs.io/ipfs/QmWVgiKR7XoCRENXVgNM3KhMB3Xvhoo6oEgqDcq3hnSduF/';
 
 function App() {
-  const mintAmountRef = useRef(2);
+  const mintAmountRef = useRef(1);
   const [address, setAddress] = useState('');
   const [contract, setContract] = useState(null);
   const [nftData, setNftData] = useState(null);
