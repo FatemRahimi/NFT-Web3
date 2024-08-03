@@ -74,7 +74,7 @@ function App() {
                 ref={mintAmountRef}
                 className="mx-2"
                 type="number"
-                defaultValue={2}
+                defaultValue={1}
                 min={1}
                 max={5}
               />
