@@ -24,7 +24,7 @@ function App() {
     fetchnftData();
   }, []);
 
-  const fetchnftData = async () => {
+  const fetchnftData = sync () => {
     const nftDataResponse = await axios.get(
       BASE_URL +
         `?module=account&action=tokennfttx&contractaddress=${CONTRACT_ADDRESS}&page=1&offset=100&tag=latest&apikey=${process.env.REACT_APP_API_KEY}`
