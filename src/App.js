@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from 'react';
 import { Button } from 'react-bootstrap';
 import ABI from './ABI.json';
 import Web3 from 'web3';
-import axios from 'axios';
+import axios from "axios";
 
 const CONTRACT_ADDRESS = '0x38ac452166A993A4031172c6802923DaA4215796';
 const BASE_URL = 'https://api-rinkeby.etherscan.io/api';
