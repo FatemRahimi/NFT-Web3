@@ -53,7 +53,7 @@ function App() {
         const totalAmount = mintAmount * mintRate;
         contract.methods
           .mint(address, mintAmount)
-          .send({ from: address, name: String(totalAmount) });
+          .send({ from: address, value: String(totalAmount) });
       }
     }
   };
